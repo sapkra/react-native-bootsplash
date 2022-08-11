@@ -217,8 +217,6 @@ public class MainActivity extends ReactActivity {
   }
 ```
 
-As Android will not create our main activity before launching the app, we need to display a different activity at start, then switch to our main one.
-
 2. Edit the `android/app/src/main/res/values/styles.xml` file:
 
 ```xml
